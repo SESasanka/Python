@@ -1,0 +1,5 @@
+x = int(input(" Enter the numbeeric value :"))
+y = int(input(" Enter the numberic value :"))
+print("x is :", x)
+print(" y is :", y)
+print(" x +y is :", x+y)
