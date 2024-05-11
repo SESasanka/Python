@@ -1,4 +1,7 @@
 x = 0
-while x < 100:
-    x = x+2
+y = 1
+
+while y<5 :
+    x = x+y
+    y=y+1
     print(x)
