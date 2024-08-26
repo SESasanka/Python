@@ -1,0 +1,235 @@
+Python 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+print(2>1)
+True
+print(2*3)
+6
+print("Hello world")
+Hello world
+name = "Nirmal"
+age = 17
+
+print(name,age)
+Nirmal 17
+name = "Nirmal"
+age = 17
+
+def print_details(name,age):
+    print(f"Hello {name}")
+    print(f"You are age {age}.")
+
+    
+
+name = "Nirmal"
+age = 17
+
+def print_details(name,age):
+    print(f"Hello {name}")
+
+   
+SyntaxError: multiple statements found while compiling a single statement
+KeyboardInterrupt
+name = "Nirmal"
+age = 17
+
+def print_details(name,age):
+    print(f"Hello {name}")
+    print(f"You are age {age}.")
+    
+SyntaxError: multiple statements found while compiling a single statement
+name =("Nirmal")
+age = 17
+
+def print_details(name,age):
+    print(f"Hello {name}")
+    print(f"You are age {age}.")
+    
+SyntaxError: multiple statements found while compiling a single statement
+name = Nirmal
+age = 17
+
+def print_details(name,age):
+    print(f"Hello {name}")
+    print(f"You are age {age}.")
+    
+SyntaxError: multiple statements found while compiling a single statement
+name = "Nirmal"
+age = 17
+"""
+
+def print_details(name,age):
+    print(f"Hello {name}")
+     print(f"You are age {age}.")
+    
+    print(f"You are age {age}.")print(f"You are age {age}.")
+    
+SyntaxError: multiple statements found while compiling a single statement
+
+
+KeyboardInterrupt
+name = "Nirmal"
+age = 17
+
+def print_details(name,age):
+    print(f"Hello {name}")
+    print(f"You are age {age}.")
+KeyboardInterrupt
+name = "Nirmal"
+age = 17
+
+def print_details(name,age):
+    
+SyntaxError: multiple statements found while compiling a single statement
+ print(f"Hello {name}")
+    print(f"You are age {age}.")
+    
+SyntaxError: unexpected indent
+print("Hello world")
+Hello world
+my_text="Hello world"
+print(my_text)
+Hello world
+
+
+
+print("This is Sam's book")
+This is Sam's book
+
+print('This is Sam's book')
+      
+SyntaxError: unterminated string literal (detected at line 1)
+
+print('This is Sam\'s book')
+      
+This is Sam's book
+This is Sam's book
+      
+SyntaxError: unterminated string literal (detected at line 1)
+print(1)
+      
+1
+print(5.7)
+      
+5.7
+print(-6.5547)
+      
+-6.5547
+
+my_int = 125
+      
+print()my_int
+      
+SyntaxError: invalid syntax
+print(my_int)
+      
+125
+my_float = 25.,7686
+      
+print(my_float)
+      
+(25.0, 7686)
+my_float = 243.535
+      
+print(my-float)
+      
+Traceback (most recent call last):
+  File "<pyshell#47>", line 1, in <module>
+    print(my-float)
+NameError: name 'my' is not defined
+print(my_float)
+      
+243.535
+
+print("1" + "3")
+      
+13
+print(1+2)
+      
+3
+print("***This program shows the use of a variable***")
+      
+***This program shows the use of a variable***
+my_text = "Hello world"
+      
+print(my-text[)
+      
+SyntaxError: closing parenthesis ')' does not match opening parenthesis '['
+print()my_text
+      
+SyntaxError: invalid syntax
+print(my_text)
+      
+Hello world
+
+my_text = "Dear Reader, how are you?"
+      
+print(my_text)
+      
+Dear Reader, how are you?
+numer1 = 2
+      
+type(number1)
+      
+Traceback (most recent call last):
+  File "<pyshell#61>", line 1, in <module>
+    type(number1)
+NameError: name 'number1' is not defined. Did you mean: 'numer1'?
+<class "int">
+      
+SyntaxError: invalid syntax
+number1 = 2
+      
+type (number1)
+      
+<class 'int'>
+number2 = 2.23
+      
+type(number2)
+      
+<class 'float'>
+print ("Escapr Characters")
+      
+Escapr Characters
+print("My line \n breaks")
+      
+My line 
+ breaks
+>>> 
+>>> print("Did you hear the bell? \a")
+...       
+Did you hear the bell? 
+>>> print("is anything missing in this line\b")
+...       
+is anything missing in this line
+>>> hi
+...       
+Traceback (most recent call last):
+  File "<pyshell#72>", line 1, in <module>
+    hi
+NameError: name 'hi' is not defined
+>>> print("is anything missing in this line\b")
+...       
+is anything missing in this line
+>>> print("Anything u\nusual here")
+...       
+Anything u
+usual here
+>>> usual here
+...       
+SyntaxError: invalid syntax
+>>> 
+>>> print("How about now\\")
+...       
+How about now\
+>>> print("This \t tab")
+...       
+This 	 tab
+>>> This 	 tab
+...       
+SyntaxError: invalid syntax
+>>> print("The \v tab")
+...       
+The 
+>>>  tab
+... print("I'm in \f next page")
+      
