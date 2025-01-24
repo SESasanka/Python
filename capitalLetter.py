@@ -1,23 +1,18 @@
-# def capital(word):
+def capital(word):
 
-#     x = [char for char in word if char .isupper()]
+    x = [char for char in word if char .isupper()]
     
-#     yield x
+    yield x
 
-#     # x = []
+    # x = []
 
-#     # for char in word:
-#     #     if char .isupper():
-#     #         x.append(char)
+    # for char in word:
+    #     if char .isupper():
+    #         x.append(char)
 
-#     # return x
+    # return x
 
-# print(next(capital("ABcD")))
+print(next(capital("ABcD")))
 
 
-
-def capital(s):
-    return [i for i in range(len(s)) if s[i].isuppser()]
-
-print(capital("Hello"))
 
