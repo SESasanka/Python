@@ -50,6 +50,8 @@ showerstr = str[mask:]
 
 print("*" * mask + showerstr)
 
+
+
 def masking(number,mask):
 
     str = ''
