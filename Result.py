@@ -10,4 +10,4 @@ elif operator == '*':
 elif operator == '/':
     print(num1 / num2)
 else:
-    print("Result :", result)
+    print("no result")
