@@ -1,17 +1,22 @@
 # n = 5
 
-def tri_recursion(k):
-  if(k > 0):
-    result = k + tri_recursion(k - 1)
-    print(result)
-  else:
-    result = 0
-  return result
+# def tri_recursion(k):
+#   if(k > 0):
+#     result = k + tri_recursion(k - 1)
+#     print(result)
+#   else:
+#     result = 0
+#   return result
 
-print("Recursion Example Results:")
-tri_recursion(6)
+# print("Recursion Example Results:")
+# tri_recursion(6)
 
 
+x = [10,20,30,40,50]
+
+a =len(x)
+z = (20+10)/a
+print(z)
 
 
 
