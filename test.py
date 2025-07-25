@@ -5,8 +5,20 @@
 #   i = i + 1
 
 
-fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
 
-newlist = [x for x in fruits if "a" in x]
+# newlist = [x for x in fruits if "a" in x]
 
-print(newlist)
+# print(newlist)
+
+
+list_a =[5,15,20,16,8]
+
+def f(x):
+    total = 0
+    for i in x:
+        total = total+i
+        if total >= 50:
+            break
+    return (total)
+print(f(list_a))
