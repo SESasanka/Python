@@ -119,11 +119,34 @@
 # print(f"Total of ten number is {tot}")
 
 
-l = [2,5,4,3,1]
+# l = [2,5,4,3,1]
 
-for i in range(len(l)):
-    for j in range(len(l)-1):
-      if  l[j] < l[j+1]:
-         l[j],l[j+1]=l[j+1],l[j]
+# for i in range(len(l)):
+#     for j in range(len(l)-1):
+#       if  l[j] < l[j+1]:
+#          l[j],l[j+1]=l[j+1],l[j]
 
-print(l)
+# print(l)
+
+
+# def additem(numbers):
+#     numbers+=[2]
+
+# mylist=[12,16,18,20,24]
+# additem(mylist)
+# print(len(mylist))
+
+# a = [0,1,2,3]
+# for a[-1] in a:
+#     print(a[-1],end='')
+
+# a = int(input("Enter number"))
+# b = int(input("Enter number"))
+
+# if a<b:
+#     a,b=b,a
+# d=a-b
+
+# while d>3:
+#     print(d)
+#     d=d-b
