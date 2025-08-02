@@ -150,3 +150,16 @@
 # while d>3:
 #     print(d)
 #     d=d-b
+
+L=[10, 20, 34, 47, 54]
+count=0
+sumOfNumber=0
+k=int(input('Enter K Value : '))
+for i in range(len(L)):
+    if L[i] < k:
+        count+=1
+        sumOfNumber+=L[i]
+        i+=1
+    avg = sumOfNumber/count
+print(avg)
+
