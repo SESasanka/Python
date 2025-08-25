@@ -163,13 +163,30 @@
 #     avg = sumOfNumber/count
 # print(avg)
 
-def calculate(n):
-    Results = 0
-    for i in range(1, n+1):
-        for j in range(i):
-            Results += i * j
-    return Results
+# def calculate(n):
+#     Results = 0
+#     for i in range(1, n+1):
+#         for j in range(i):
+#             Results += i * j
+#     return Results
 
-print(calculate(4))
+# print(calculate(4))
 
+# data = [5,1,23,10,-3]
+# def fun(a):
+#     i,c =1,a[0]
+#     while i < len(a):
+#         if a[i] > c:
+#             c = a[i]
+#         i += 1
+#     return c
+# print(fun(data))
 
+data = [5,1,23,10]
+datacount = len(data)
+for i in range(datacount-1):
+    for j in range(i,datacount):
+        if data[i]>data[j]:
+            data[i],data[j] = data[j],data[i]
+for i in range(datacount):
+    print(data[i])
