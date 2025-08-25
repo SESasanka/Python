@@ -182,11 +182,11 @@
 #     return c
 # print(fun(data))
 
-data = [5,1,23,10]
-datacount = len(data)
-for i in range(datacount-1):
-    for j in range(i,datacount):
-        if data[i]>data[j]:
-            data[i],data[j] = data[j],data[i]
-for i in range(datacount):
-    print(data[i])
+# data = [5,1,23,10]
+# datacount = len(data)
+# for i in range(datacount-1):
+#     for j in range(i,datacount):
+#         if data[i]>data[j]:
+#             data[i],data[j] = data[j],data[i]
+# for i in range(datacount):
+#     print(data[i])
