@@ -201,3 +201,11 @@
 # numbers=[1,2,3,4,5]
 # output= list_operations(numbers)
 # print(output)
+
+marks=[(1,"amara",96),(2,"rajah",34),(3,"rani",49),(4,"faahim",68)]
+i=-1
+while i < len(marks)-1:
+    i+=1
+    if marks[i][2]<50:
+        continue
+    print(marks[i][1],end=" ")
