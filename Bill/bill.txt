@@ -1,1 +1,5 @@
-
+my shop
+Item       Qty   Price
+Apple      2     200.00
+Orange     1     80.00
+Total : 280.00
