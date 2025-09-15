@@ -210,13 +210,13 @@
 #         continue
 #     print(marks[i][1],end=" ")
 
-def factorial(num):
-    x=1
-    fact = num
-    while x < num:
-        fact *=x
-        x+=1
-    return fact
+# def factorial(num):
+#     x=1
+#     fact = num
+#     while x < num:
+#         fact *=x
+#         x+=1
+#     return fact
 
-n = int(input("Enter Number : "))
-print(factorial(n))
+# n = int(input("Enter Number : "))
+# print(factorial(n))
