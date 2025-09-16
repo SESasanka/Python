@@ -1,0 +1,5 @@
+1001-Apple-100
+1002-Orange-80
+1003-Banana-120
+1004-Papaya-75
+1005-Grapes-150
