@@ -163,11 +163,11 @@
 # print(x) 
 
 
-mylist = [64, 34, 25, 12, 22, 11, 90, 5]
+# mylist = [64, 34, 25, 12, 22, 11, 90, 5]
 
-for i in range(len(mylist)):
-  for j in range(len(mylist)-1):
-    if mylist[j] > mylist[j+1]:
-      mylist[j], mylist[j+1] = mylist[j+1], mylist[j]  
+# for i in range(len(mylist)):
+#   for j in range(len(mylist)-1):
+#     if mylist[j] > mylist[j+1]:
+#       mylist[j], mylist[j+1] = mylist[j+1], mylist[j]  
 
-print(mylist)
+# print(mylist)
