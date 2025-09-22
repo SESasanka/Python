@@ -221,11 +221,22 @@
 # n = int(input("Enter Number : "))
 # print(factorial(n))
 
-def factorial(n):
-    fact = 1
-    for i in range(1,n+1):
-        fact*=i
-    return fact
+# def factorial(n):
+#     fact = 1
+#     for i in range(1,n+1):
+#         fact*=i
+#     return fact
 
-num = int(input("Enter Number : "))
-print(factorial(num))
+# num = int(input("Enter Number : "))
+# print(factorial(num))
+
+# i=1
+# tot=0
+# while i<=5:
+#     x=int(input(f"Enter Number {i} : "))
+#     tot=tot+x
+#     i=i+1
+# print(tot)
+
+# temp=[23,45,2,-2,0]
+# print(temp[:2])
