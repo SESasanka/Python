@@ -149,6 +149,7 @@
 
 
 # x = [1,3,2,4,5]
+
 # print(len(mylist))
 # x.append(6)    [1, 2, 3, 4, 5, 6]
 # x.clear()     []
@@ -162,12 +163,157 @@
 # x.sort(reverse=False)
 # print(x) 
 
+# x = (1,6,3,5,3,2,4,5)
+# print(len(x))   7
+# print(x.count(3))   3
+# print(x.index(5))   3
+# print(sorted(x))  #[1, 2, 3, 3, 4, 5, 5, 6]
+# print(x[2:5])   (3, 5, 3)
+# print(x[-4:-1])    (3, 2, 4)
 
-# mylist = [64, 34, 25, 12, 22, 11, 90, 5]
+# x = ("apple", "banana", "cherry")
+# y = list(x)
+# y.append("beri")
+# x = tuple(y)
+# print(x)
 
-# for i in range(len(mylist)):
-#   for j in range(len(mylist)-1):
-#     if mylist[j] > mylist[j+1]:
-#       mylist[j], mylist[j+1] = mylist[j+1], mylist[j]  
+# x = {1:1,"abc":4,3:5}
+# x.update({4:6})
+# x.pop(2)    {1: 1, 3: 5}
+# x.clear()   {}
+# print(x.get("abc"))  4
+# print(x.items())  ([(1, 1), ('abc', 4), (3, 5)])
+# print(x.keys())  ([1, 'abc', 3])
+# print(x.values())  ([1, 4, 5])
+# print(len(x))  3
 
-# print(mylist)
+# x = {"apple", "banana", "cherry","apple"}
+# print(len(x)) 3
+
+# x = {1,2,4,6,8} 
+
+# x.add(5)  {1, 2, 4, 5, 6, 8}
+# x.update({10,9})   {1, 2, 4, 6, 8, 9, 10}
+# x.discard(4)   {1, 2, 6, 8}
+# x.pop()    {2, 4, 6, 8}
+# print(x)
+
+
+# a = 33
+# b = 200
+
+# if b <= a:
+#     print("b is greater than a")
+
+
+# a = 33
+# b = 33
+# if b > a:
+#   print("b is greater than a")
+# elif a == b:
+#   print("a and b are equal")
+
+# a = 200
+# b = 500
+
+# print("A") if a > b else print ("B")
+
+# if a > b :
+#     print("A")
+# else:
+#     print("B")
+
+# a = 200
+# b = 800
+# c = 100
+# if a > b or c > a:
+#   print("Both conditions are True")
+# else:
+#   print("invalid")
+
+# a = 33
+# b = 200
+# if not a > b:
+#   print("a is NOT greater than b")
+# else:
+#   print("Not")
+
+# x = 41
+
+# if x > 100:
+#   print("Above ten,")
+#   if x > 50:
+#     print("and also above 20!")
+#   else:
+#     print("but not above 20.")
+# else:
+#   print("not valid")
+
+# a = 33
+# b = 200
+
+# if b > a:
+#   pass
+
+#   if b > a:
+#     print("a")
+
+
+# i = 0
+# while i < 10:
+#   print(i)
+#   i = i + 1 
+
+# i = 1
+# while i < 6:
+#   print(i)
+#   if i == 3:
+#     break
+#   i += 1
+
+# 1
+# 2
+# 3
+
+# i = 0
+# while i < 6:
+#   i += 1
+#   if i == 3:
+#     continue
+#   print(i)   
+
+
+# x = 1234567890
+
+# y = str(x)
+# print(y[2])
+
+
+# nic = input("Enter your NIC number: ")
+# while True:
+#     if len(nic) == 10 and nic[-1] in ['V','v']:
+#         break
+#     elif len(nic) == 12 and nic.isdigit():    
+#         break
+#     else:
+#         nic = input("Invalid NIC. Please enter again: ")
+# print("Valid NIC")
+
+    
+# x = str(input("Enter your NIC number:  "))
+# while True:
+#     if len(x)==10 and (x[-1]=='V' or x[-1]=='v'):
+#         break
+#     elif len(x)==12 and x.isdigit():    
+#         break
+#     else:
+#         x = str(input("Invalid NIC. Please enter again:  "))
+# print("Valid NIC")
+
+x = str(input("Enter your NIC number:  "))
+while True:
+    if len(x)==12 and x[0:2] == "20":
+        break
+    else:
+        x = str(input("Invalid NIC. Please enter again:  "))
+print("Valid NIC")
