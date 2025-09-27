@@ -287,33 +287,3 @@
 
 # y = str(x)
 # print(y[2])
-
-
-# nic = input("Enter your NIC number: ")
-# while True:
-#     if len(nic) == 10 and nic[-1] in ['V','v']:
-#         break
-#     elif len(nic) == 12 and nic.isdigit():    
-#         break
-#     else:
-#         nic = input("Invalid NIC. Please enter again: ")
-# print("Valid NIC")
-
-    
-# x = str(input("Enter your NIC number:  "))
-# while True:
-#     if len(x)==10 and (x[-1]=='V' or x[-1]=='v'):
-#         break
-#     elif len(x)==12 and x.isdigit():    
-#         break
-#     else:
-#         x = str(input("Invalid NIC. Please enter again:  "))
-# print("Valid NIC")
-
-x = str(input("Enter your NIC number:  "))
-while True:
-    if len(x)==12 and x[0:2] == "20":
-        break
-    else:
-        x = str(input("Invalid NIC. Please enter again:  "))
-print("Valid NIC")
