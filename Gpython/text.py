@@ -344,9 +344,18 @@
 
 x = [7, 9, 12, 11, 3]
 
-for i in range (0,len(x)):
-    for j in range(0,len(x)-1):
-        if x[j] > x[j+1]:
-            x[j],x[j+1] = x[j+1],x[j]
+# for i in range (0,len(x)):
+#     for j in range(0,len(x)-1):
+#         if x[j] > x[j+1]:
+#             x[j],x[j+1] = x[j+1],x[j]
 
+# print(x)
+
+
+for i in range(0,len(x)):
+    min_val = i
+    for j in range(i+1,len(x)):
+        if x[j] < x[min_val]:
+            min_val = j
+            x[i],x[min_val]=x[min_val],x[i]
 print(x)
