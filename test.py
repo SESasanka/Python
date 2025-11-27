@@ -240,3 +240,41 @@
 
 # temp=[23,45,2,-2,0]
 # print(temp[:2])
+
+# x = 1
+# while x < 1024:
+#     x*=2
+# print(x)
+
+
+# def calculate(n):
+#     return n // 2
+# for i in range(1,6):
+#     print(calculate(i), end=',')
+
+# def sss(n):
+#     if n<=1:
+#         return n
+#     else:
+#         return sss(n-1)+sss(n-2)
+# print(sss(3))
+
+# for i in range(5):
+#     if i % 2 == 0:
+#         continue
+#     else:
+#         print(i,end=',') 
+
+# result = [x+"2" for x in '123']
+# print(result)
+
+
+# def calc(a,b,c):
+#     return(a**b // c+2) + 5.2 - 4.2
+# print(calc(2,5,1))
+
+a = 2
+b = 5
+c = 1
+
+print(a**b // c + 2)
