@@ -273,8 +273,50 @@
 #     return(a**b // c+2) + 5.2 - 4.2
 # print(calc(2,5,1))
 
-a = 2
-b = 5
-c = 1
+# a = 2
+# b = 5
+# c = 1
 
-print(a**b // c + 2)
+# print(a**b // c + 2)
+
+# def myfunc(*data):
+#     temp=0
+#     for i in data:
+#         temp+=i
+#     return temp
+# print(myfunc(4,8,3.25,6,-1,9,-3))
+
+# thislist = ["apple","banana","cherry"]
+# for i in thislist:
+#     print(i)
+
+# fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+# i = 0
+# while i < len(fruits):
+#     print(fruits[i], end=" ")
+#     i += 1
+
+# def fibonacci(n):
+#     if n<=1:
+#         return n
+#     else:
+#         return fibonacci(n-1)+fibonacci(n-2)
+# for i in range(31):
+#     print(fibonacci(i))
+
+# count = 1
+# maxnum = 0
+# while count <=10:
+#     num = int(input(f"Enter Number {count} : "))
+#     if num > maxnum:
+#         maxnum = num
+#     count += 1
+# print(f"Maximum number is : {maxnum}")
+
+# for i in range(1,11):
+#     num = int(input(f"Enter number {i} : "))
+#     if num > maxnum:
+#         maxnum = num
+#     count+=1
+# print(f"Maximum number is {maxnum}")
+
