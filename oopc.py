@@ -48,13 +48,13 @@
 # p1 = Person("Sasanka")
 # p1.welcome()
 
-class Animal:
-    def sound(self):
-        print("Animal makes a sound")
+# class Animal:
+#     def sound(self):
+#         print("Animal makes a sound")
     
-class Dog(Animal):
-    def sound(self):
-        print("Dogs barks")
+# class Dog(Animal):
+#     def sound(self):
+#         print("Dogs barks")
 
-p=Dog()
-p.sound()
+# p=Dog()
+# p.sound()
