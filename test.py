@@ -320,3 +320,19 @@
 #     count+=1
 # print(f"Maximum number is {maxnum}")
 
+# mytuple = ("abc","def","ghi")
+# myit = iter(mytuple)
+# for i in mytuple:
+#     print(i)
+
+
+# word = str(input("Enter Palidrome Word : "))
+# if word == word[-1::-1]:
+#     print(f"This word {word} is Palidrome")
+# else:
+#     print("Not a palidrome word")
+
+# word = "madam"
+# word1 = word[-1::-1]
+# print(word1)
+
