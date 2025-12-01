@@ -336,3 +336,11 @@
 # word1 = word[-1::-1]
 # print(word1)
 
+# prime = 0
+# for i in range(2,10):
+#     rem = 0
+#     for j in range(2,i):
+#         if i % j == 0:
+#             rem += 1
+#     if rem == 0:
+#         print(f"{i} is Prime Number")
