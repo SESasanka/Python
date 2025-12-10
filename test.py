@@ -344,3 +344,31 @@
 #             rem += 1
 #     if rem == 0:
 #         print(f"{i} is Prime Number")
+
+
+# def bubble_sort(lst):
+#     for i in lst:
+#         i=0
+#         while i < len(lst)-1:
+#             if lst[i] > lst[i+1]:
+#                 lst[i],lst[i+1]=lst[i+1],lst[i]
+#             i+=1
+#     return lst
+
+l = []
+n = int(input())
+while n > 0:
+    l.append(n)
+    n= int(input())
+m=min(l)
+F=False
+while m>=1 and not F:
+    for K in l:
+        if K%m == 0:
+            F=True
+        else:
+            F=False
+        if not F:
+            break
+    m-=1
+print(m+1)
