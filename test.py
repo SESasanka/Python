@@ -355,20 +355,47 @@
 #             i+=1
 #     return lst
 
-l = []
-n = int(input())
-while n > 0:
-    l.append(n)
-    n= int(input())
-m=min(l)
-F=False
-while m>=1 and not F:
-    for K in l:
-        if K%m == 0:
-            F=True
-        else:
-            F=False
-        if not F:
-            break
-    m-=1
-print(m+1)
+# l = []
+# n = int(input())
+# while n > 0:
+#     l.append(n)
+#     n= int(input())
+# m=min(l)
+# F=False
+# while m>=1 and not F:
+#     for K in l:
+#         if K%m == 0:
+#             F=True
+#         else:
+#             F=False
+#         if not F:
+#             break
+#     m-=1
+# print(m+1)
+
+# for x in [0,1,2]:
+#     for y in [0,1]:
+#         print("*")
+
+# def mystery(str):
+#     out = ''
+#     for char in str:
+#         if char == 'i':
+#             break
+#         if char == 'a':
+#             continue
+#         out+=char
+#     return out
+# print(mystery('walking'))
+
+def fun1():
+    x = 10
+    return x
+
+def fun2():
+    x = 20
+    return x
+
+total = fun1() + fun2()
+
+print(total)
