@@ -388,14 +388,26 @@
 #     return out
 # print(mystery('walking'))
 
-def fun1():
-    x = 10
-    return x
+# def fun1():
+#     x = 10
+#     return x
 
-def fun2():
-    x = 20
-    return x
+# def fun2():
+#     x = 20
+#     return x
 
-total = fun1() + fun2()
+# total = fun1() + fun2()
 
-print(total)
+# print(total)
+
+def SD(L):
+    tot=0
+    for i in L:
+        avg=sum(L)/len(L)
+        x=(i-avg)**2
+        tot+=x
+        sd=(tot/len(L)-i)**0.5
+    return sd,avg
+data=[10,12,14,16,18,20]
+stddev,average=SD(data)
+print(f"Standard Deviation: {stddev}, Average: {average}")
