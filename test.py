@@ -441,7 +441,39 @@
 # x={1,2,3}+{4,5,6}
 # print(x)
 
-num=2
-while num < 10:
-    print(num)
-    num+=2
+# num=2
+# while num < 10:
+#     print(num)
+#     num+=2
+
+# a=[1,2,3,None,(),[]]
+# print(len(a))
+
+# x=4.5
+# y=2
+# print(x//y)
+
+# x="welcome to python".split()
+# print(x)
+
+# for i in range(9,1,-1):
+#     if i == 5:
+#         continue
+#     else:
+#         print(i,end=',')
+
+# list1=[0.5 * x for x in range(0,4)]
+# print(list1)
+
+# names=["Nimal","Sunil","Amara","Kumara"]
+# sum=0
+# for ls in names:
+#     if  ls=="Nimal":
+#         sum+=1
+#     if ls=="Sunil":
+#         sum+=10
+
+# print(sum)
+
+a=2**2**3//4.0*(8/4)
+print(a)
