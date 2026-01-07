@@ -400,14 +400,48 @@
 
 # print(total)
 
-def SD(L):
-    tot=0
-    for i in L:
-        avg=sum(L)/len(L)
-        x=(i-avg)**2
-        tot+=x
-        sd=(tot/len(L)-i)**0.5
-    return sd,avg
-data=[10,12,14,16,18,20]
-stddev,average=SD(data)
-print(f"Standard Deviation: {stddev}, Average: {average}")
+# def SD(L):
+#     tot=0
+#     for i in L:
+#         avg=sum(L)/len(L)
+#         x=(i-avg)**2
+#         tot+=x
+#         sd=(tot/len(L)-i)**0.5
+#     return sd,avg
+# data=[10,12,14,16,18,20]
+# stddev,average=SD(data)
+# print(f"Standard Deviation: {stddev}, Average: {average}")
+
+# for x in range(6,0,-2):
+#     print(x,end=',')
+
+# numbers=[22,34,12,32,4]
+# sum=0
+# i = len(numbers)
+# while (i!=0):
+#     i-=1
+#     sum+=numbers[i]
+# print(sum, end='')
+
+# def example1(a):
+#     if a == 1:
+#         return 1
+#     else:
+#         return a * example1(a - 1)
+# print(example1(3))
+
+# name='nimal'
+# if len(name) > 3:
+#     print('nice name')
+#     print(name)
+# else:
+#     print('short name')
+#     print(name)
+
+# x={1,2,3}+{4,5,6}
+# print(x)
+
+num=2
+while num < 10:
+    print(num)
+    num+=2
