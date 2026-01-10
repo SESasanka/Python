@@ -477,3 +477,20 @@
 
 # a=2**2**3//4.0*(8/4)
 # print(a)
+
+# def fibonachi(a):
+#     if a <= 1:
+#         return a
+#     else:
+#         return fibonachi(a-1) + fibonachi(a-2)
+    
+# for i in range(10):
+#     print(i,'--->',fibonachi(i))
+
+x=0
+y=1
+print(x,',',y,end=',')
+for i in range (10):
+    print(x+y,end=',')
+    x,y= y,x+y
+    
